@@ -2,6 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
+    background-color: #E9F1FA;
     
 }
 
@@ -12,10 +13,20 @@ body, html {
     position: fixed;
     top: 0;
     width:  100vw;
-    background-color: #333;
-    color: white;
+    background-color: #00ABE4;        
     padding: 10px;
     text-align: center;
+}
+
+#nav-head {
+    text-decoration: none;
+    color: #fbe51f;
+    margin-right: -4px;
+}
+
+.nav-items {
+    text-decoration: none;
+    color: white;
 }
 
 .section {
@@ -24,7 +35,7 @@ body, html {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f5f5f5;
+    background-color: #E9F1FA;
     text-align: center;
     border-bottom: 1px solid #ccc;    
     gap: 32px;
