@@ -8,7 +8,7 @@ body, html {
 
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     position: fixed;
     top: 0;
@@ -16,17 +16,23 @@ body, html {
     background-color: #00ABE4;        
     padding: 10px;
     text-align: center;
+    gap: 32px;
 }
 
 #nav-head {
     text-decoration: none;
-    color: #fbe51f;
-    margin-right: -4px;
+    color: navy;
+    font-size: 1.1em;
 }
 
 .nav-items {
     text-decoration: none;
-    color: white;
+    color: white;  
+    font-size: 1.1em;  
+}
+
+.nav-items:hover {
+    background-color: navy;    
 }
 
 .section {
@@ -52,7 +58,8 @@ body, html {
 }
 
 .section p {
-    font-size: 1.2em;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 .card {
@@ -61,8 +68,11 @@ body, html {
     border-radius: 6px;
     padding: 8px;
     width:  400px;
-    height: 300px;
-    
+    height: 300px;    
+}
+
+.card:hover {
+    transform: translateY(-16px) scale(1.1);
 }
 
 img {
