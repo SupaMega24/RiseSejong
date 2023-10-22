@@ -42,8 +42,7 @@ body, html {
     align-items: center;
     height: 100vh;
     background-color: #E9F1FA;
-    text-align: center;
-    border-bottom: 1px solid #ccc;    
+    text-align: center;        
     gap: 32px;
     margin: 0 100px;
 }
