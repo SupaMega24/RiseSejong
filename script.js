@@ -1,14 +1,15 @@
 
-document.getElementById("open-pdf").addEventListener("click", function(event) {
-    event.preventDefault(); // Prevent the default behavior of the link
-    
-    // Open a new popup window with specific dimensions
-    const width = window.innerWidth;
-    const height = window.innerHeight;
-    
-    const left = (window.screen.width - width) / 2;
-    const top = (window.screen.height - height) / 2;
-    
-    window.open('https://docs.google.com/document/d/1R6sd95XCCrCIdjX3pqOPQGKnLDbJBLd3vfhDN0SNrYA/edit', "PDFPopup", "width=" + width + ",height=" + height + ",left=" + left + ",top=" + top);
-  });
+//Set pop up for syllabi//
+
+function openPopup(pdfPath) {
+  const width = window.innerWidth * 0.8; // 80% of the inner width
+  const height = window.innerHeight * 0.8; // 80% of the inner height
+  const left = (window.innerWidth - width) / 2 + window.screenX;
+  const top = (window.innerHeight - height) / 2 + window.screenY;
+
+  window.open(pdfPath, '_blank', `width=${width},height=${height},left=${left},top=${top}`); // Adjust width and height as needed
+}
+
+
+
   
