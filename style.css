@@ -130,13 +130,13 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center; 
-    height: 80vh;   
+    height: 80vh;  
     background-color: #E9F1FA;
     text-align: center;        
     gap: 32px;
-    margin: 0 100px 100px;
-    overflow: hidden;
-    border-bottom: 8px solid #2272FF;     
+    margin: 100px 100px 0 100px;    
+    padding-top: 120px;   
+    border-bottom: 8px solid #2272FF;    
 }
 
 
