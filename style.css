@@ -69,6 +69,7 @@ body, html {
     height: 300px;    
 }
 
+.syllabus:hover,
 .card:hover {
     transform: translateY(-16px) scale(1.1);
 }
@@ -90,12 +91,9 @@ img {
 }
 
 .vertical-container {
-    border: 1px solid #2272FF;
-    border-radius: 6px;
-    padding: 8px;
-    width:  47%;
-    height: 500px;
-    margin: auto;
+    border: none;     
+    width:  47%;   
+    margin: auto;    
 }
 
 .class-info {
@@ -122,5 +120,23 @@ img {
     
 }
 
+.resources:hover {
+    transform: translateY(-4px);
+    background-color: #FFCE32;
+}
+
+.course-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    height: 80vh;   
+    background-color: #E9F1FA;
+    text-align: center;        
+    gap: 32px;
+    margin: 0 100px 100px;
+    overflow: hidden;
+    border-bottom: 8px solid #2272FF;     
+}
 
 
