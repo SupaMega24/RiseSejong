@@ -82,8 +82,8 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid #2272FF;
-    border-radius: 6px;
+    /* border: 1px solid #2272FF;
+    border-radius: 6px; */
     padding: 8px;
     width:  100%;
     height: 300px;   
@@ -116,8 +116,7 @@ img {
 .resources {
     border: 1px solid #2272FF;
     border-radius: 6px;
-    padding: 8px;
-    
+    padding: 8px;    
 }
 
 .resources:hover {
@@ -129,7 +128,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center; 
+    align-items: center;     
     height: 80vh;  
     background-color: #E9F1FA;
     text-align: center;        
@@ -137,6 +136,23 @@ img {
     margin: 100px 100px 0 100px;    
     padding-top: 120px;   
     border-bottom: 8px solid #2272FF;    
+}
+
+span {
+    font-weight: bold;
+    color: #1D63FF;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+#resource-links {
+    text-decoration: none;
+}
+
+#resource-links:visited {
+    color: inherit;
 }
 
 
