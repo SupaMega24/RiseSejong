@@ -1,4 +1,18 @@
 
+document.addEventListener("DOMContentLoaded", function() {
+  const modal = document.getElementById("modal");
+
+  // Show the modal when the page is loaded
+  modal.classList.add("active");
+
+  function closeModal() {
+      modal.classList.remove("active");
+  }
+
+  window.closeModal = closeModal;
+});
+
+
 //Set pop up for syllabi//
 
 function openPopup(pdfPath) {
