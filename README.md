@@ -11,6 +11,8 @@ Rise English Academy Web Application is designed to address the following challe
 - **Onboarding and Training**: Simplify the onboarding process for new teachers by providing easy access to essential information and training resources.
 - **Tool Navigation**: Assist instructors in navigating the various tools and resources they need inside the classroom, improving efficiency during teaching sessions.
 
+**Live Preview** - It's a work in progress, but can be viewed here - https://risesj.netlify.app/.
+
 ## Features
 
 ### 1. Home Page
