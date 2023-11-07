@@ -136,7 +136,7 @@ img {
     gap: 32px;
     margin: 100px 100px 0 100px;    
     padding-top: 120px;   
-    border-bottom: 8px solid #2272FF;    
+    /* border-bottom: 8px solid #2272FF;     */
 }
 
 span {
