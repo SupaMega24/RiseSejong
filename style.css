@@ -88,7 +88,11 @@ img {
     padding: 8px;
     width:  100%;
     height: 300px;   
+}
 
+.horizontal-container p {
+    font-size: large;
+    text-align: left;
 }
 
 .vertical-container {
@@ -101,7 +105,7 @@ img {
     border: none;    
     padding: 8px;
     height: 70%;
-    width: 70%;
+    width: 60%;    
 }
 
 
