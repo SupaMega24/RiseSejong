@@ -198,6 +198,39 @@ button {
     padding: 12px;    
 }
 
+/* Media query for larger screens (768px and above) */
+/* @media only screen and (min-width: 768px) {
+    .section {
+      margin: 0 200px 100px;
+    }
+  
+    .horizontal-container {
+      height: 400px;
+    }
+  
+    .vertical-container {
+      width: 30%;
+      margin: 0;
+    }
+  
+    .class-info {
+      width: 100%;
+    }
+  
+    .syllabus {
+      width: 100%;
+    }
+  
+    .resources,
+    .resources:hover {
+      width: 100%;
+    }
+  
+    .course-section {
+      margin: 100px 200px 0 200px;
+    }
+  } */
+
 
 
 
