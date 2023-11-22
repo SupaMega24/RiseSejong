@@ -212,6 +212,10 @@
             // Add more event data objects as needed
         ];
 
+        document.addEventListener('DOMContentLoaded', function() {    
+        closeModal();
+        });
+
         function openModal(eventIndex) {
             const event = eventData[eventIndex];
             document.getElementById('eventTitle').innerText = event.title;
