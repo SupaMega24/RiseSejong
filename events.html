@@ -86,7 +86,7 @@
         .event-modal {
             background-color: white;
             width: 60%;
-            height: 60%;
+            height: 70%;
             position: fixed;
             top: 50%;
             left: 50%;
@@ -98,8 +98,9 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            text-align: center;
+            text-align: center;            
         }
+        
 
         #eventTitle {
             font-size: 32px;
@@ -160,7 +161,7 @@
             <div class="event-card" onclick="openModal(0)">Birthdays</div>
             <div class="event-card" onclick="openModal(1)">Field Trips</div>
             <div class="event-card" onclick="openModal(2)">Special Events</div>
-            <div class="event-card" onclick="openModal(3)">Staff Outings</div>
+            <div class="event-card" onclick="openModal(3)">Staff Happenings</div>
             <!-- Add more event cards as needed -->
         </div>
     </div>
@@ -168,12 +169,12 @@
     
 
     <!-- Modal -->
-    <div class="event-modal" id="modal" style="display: none;">        
+    <div class="event-modal" id="modal" style="display: flex;">                
         <div id="eventTitle"></div>
         <div id="eventDetails"></div>
         <p id="eventInfo"></p>
         <a id="eventLink"></a>
-        <button onclick="closeModal()">Close</button>
+        <button onclick="closeModal()">Close</button>            
     </div>
 
     <!-- Modal Overlay -->
@@ -183,28 +184,30 @@
     <script>
         const eventData = [
             {
-                title: "November Birthdays!",
+                title: "December Birthdays!",
                 details: "Let's see who has a special day this month.",
-                info: ["Seoju - White Duck", "Andy Dandy - White Duck", "Martin Scorsese - Goodfellas"],  
-                link: "https://drive.google.com/drive/u/1/my-drive"                                             
+                info: ["Lily - Red Bird", "Aileen - Yellow Duck", "Jayden - White Duck", 
+                'Selyne & Ian - Blue Horse', ' - Brown Bear', 'Daisy - Polar Bear', 'Stella - Orange Lion'],  
+                link: "Ignore this link"                                             
             },
             {
-                title: "Event 2",
-                details: "Details for Event 2",
-                info: ["What's up"],
-                link: "a link will be here"
+                title: "December Field Trips",
+                details: "None this month",
+                info: ["Merry Christmas"],
+                link: "https://drive.google.com/drive/folders/1ibM_nsDnjOc_dtfPTiatkzKAtQEfIheE?usp=drive_link"
             },
             {
-                title: "Event 3",
-                details: "Details for Event 3",
-                info: ["What's up"],
-                link: "a link will be here"
+                title: "Graduation & Certification Photo Shoot",
+                details: "December 4 & 5, 2023",
+                info: ["12/04: 5s, 6s, & 7s will wear uniform for class photo",
+                 "12/05:  7s will wear personal outfit for individual photo shoot"],
+                link: "Ignore this link"
             },
             {
-                title: "Event 4",
-                details: "Details for Event 4",
-                info: ["What's up"],
-                link: "a link will be here"
+                title: "WINTER BREAK!!!!!",
+                details: "Vacation Time",
+                info: ["We are off starting the week of December 25th.", 'Be back and ready to roll January 2nd, 2024.'],
+                link: "Ignore this link"
             },        
             // Add more event data objects as needed
         ];
